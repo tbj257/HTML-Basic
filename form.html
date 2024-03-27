@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User registration</title>
+  </head>
+  <body>
+    <a href="/">Home</a>
+    <h1>User Registration</h1>
+    <hr />
+
+    <!-- http://127.0.0.1:5500/form.html -->
+    <form action="" method="post" enctype="">
+      <p>
+        <label>User Name:</label>
+        <input name="UserName" type="text" required />
+      </p>
+      <p>
+        <label>Email:</label>
+        <input name="Email" type="email" required />
+      </p>
+      <p>
+        <label>Phone:</label>
+        <input name="Phone" type="number" />
+      </p>
+      <p>
+        <label>Password:</label>
+        <input name="Password" type="password" required />
+      </p>
+      <p>
+        <label> LinkedIn:</label>
+        <input type="url" />
+      </p>
+      <p>
+        <label> DOB:</label>
+        <input type="date" />
+      </p>
+      <p>
+        <label for="">Message</label> <br />
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </p>
+      <p>
+        <!-- file send -->
+        <label> Upload Resume:</label>
+        <input type="file" multiple />
+
+        <!-- radio button -->
+      </p>
+
+      <p>
+        <label for="">Gender:</label>
+        <input name="gender" type="radio" /> <label>Male</label>
+        <input name="gender" type="radio" /> <label>Female</label>
+        <input name="gender" type="radio" /> <label>Prefer Not to Say</label>
+      </p>
+
+      <!-- Checkbox -->
+      <p>
+        <label for="">What do you want to learn?</label> <br />
+        <input type="checkbox" /> <label for="">HTML</label> <br />
+        <input type="checkbox" /> <label for="">CSS</label> <br />
+        <input type="checkbox" /> <label for="">Javascript</label> <br />
+      </p>
+      <hr />
+      <p>
+        <input type="checkbox" />
+        <label for="">I accept the T&Cs </label>
+      </p>
+
+      <!-- drop down select -->
+      <p>
+        <label for="">Fruit List</label>
+        <select name="" id="" multiple>
+          <option value="">--select--</option>
+          <option value="">Apple</option>
+          <option value="">Banana</option>
+          <option value="">Mango</option>
+          <option value="">Potato</option>
+        </select>
+      </p>
+      <p>
+        <label for="">Fruit & Veggie List</label>
+        <select name="" id="">
+          <optgroup label="fruits">
+            <option value="">Apple</option>
+            <option value="">Banana</option>
+            <option value="">Mango</option>
+            <option value="">Potato</option>
+          </optgroup>
+          <optgroup label="veggies">
+            <option value="">Onion</option>
+            <option value="">Tomato</option>
+            <option value="">Zucchini</option>
+            <option value="">Potato</option>
+          </optgroup>
+        </select>
+      </p>
+
+      <!-- data list -->
+      <p>
+        <label for="">Fruit & Veggie List</label>
+        <input type="text" list="linked" />
+        <datalist id="linked">
+          <option value="Apple">Apple</option>
+          <option value="Banana">Banana</option>
+          <option value="mang">Mango</option>
+          <option value="pot">Potato</option>
+          <option value="Onion">Onion</option>
+          <option value="Tomato">Tomato</option>
+          <option value="zucc">Zucchini</option>
+        </datalist>
+      </p>
+      <p>
+        <button>Submit</button>
+      </p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </form>
+  </body>
+</html>
